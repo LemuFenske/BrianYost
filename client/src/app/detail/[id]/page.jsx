@@ -35,7 +35,7 @@ export default function Plans({params}) {
                 <span className="text-gray-300 font-bold">
                   {'Aclaración para residentes de Argentina:'}
                 </span>{" "}
-                {'Se puede pagar en pesos a valor del dólar blue en el momento de la transacción)'}
+                {'Se puede pagar en pesos al valor del dólar blue en el momento de la transacción)'}
               </p>
               <p className="">{targetPlan.description}</p>
             </div>
