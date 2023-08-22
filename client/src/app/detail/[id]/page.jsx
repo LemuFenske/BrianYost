@@ -31,8 +31,9 @@ export default function Plans({params}) {
                 <h2 className="text-2xl font-semibold sm:mr-5">{targetPlan.price}</h2>
               </div>
               <p className="text-gray-400 mb-4">
-                <span className="text-gray-200 font-bold">
-                  {'(Aclaración para residentes de Argentina:'}
+              {'('}
+                <span className="text-gray-300 font-bold">
+                  {'Aclaración para residentes de Argentina:'}
                 </span>{" "}
                 {'Se puede pagar en pesos a valor del dólar blue en el momento de la transacción)'}
               </p>
