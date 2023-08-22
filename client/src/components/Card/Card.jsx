@@ -36,7 +36,7 @@ export default function Card({ name, price, duration, features, id }) {
         <div className={styles.buttonContainer}>
           <Link href={`/detail/${id}`}>
           <button className={styles.button}>
-            Saber más
+            más
           </button>
           </Link>
         </div>

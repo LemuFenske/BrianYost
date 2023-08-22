@@ -15,8 +15,8 @@ export default function Home() {
     <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80 z-10"></div>
     <div className=" z-20 absolute text-white text-3xl font-bold flex flex-col justify-center items-center">
       <h1 className='text-6xl text-gray-400 sm:mt-8 italic font-black ml-3 mr-3'>MEJORO TU SALUD Y TU FÍSICO</h1>
-      <h2 className='mb-4 mx-3 my-4 font-mono'>Alcanzá tu mejor versión</h2>
-      <button className="bg-black hover:bg-black hover:text-gray-400 px-4 font-mono py-2 rounded-lg font-semibold mx-auto">
+      <h2 className='mb-4 mx-3 my-4'>Alcanzá tu mejor versión</h2>
+      <button className="bg-black hover:bg-black hover:text-gray-400 px-4  py-2 rounded-lg font-semibold mx-auto">
         <Link href='/plans'>¡Empezá hoy!</Link>
       </button>
     </div>

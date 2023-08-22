@@ -30,7 +30,12 @@ export default function Plans({params}) {
                 <h1 className="text-3xl font-bold ">{targetPlan.name}</h1>
                 <h2 className="text-2xl font-semibold sm:mr-5">{targetPlan.price}</h2>
               </div>
-              <p className="text-gray-400 mb-4">{'(Aclaracion para residentes de  argentina: El precio equivale al cambio de dolar blue, se puede pagar en pesos a valor del dolar blue en el momento de la transacción)'}</p>
+              <p className="text-gray-400 mb-4">
+                <span className="text-gray-200 font-bold">
+                  {'(Aclaración para residentes de Argentina:'}
+                </span>{" "}
+                {'Se puede pagar en pesos a valor del dólar blue en el momento de la transacción)'}
+              </p>
               <p className="">{targetPlan.description}</p>
             </div>
             <div className="sm:w-1/2 flex">
